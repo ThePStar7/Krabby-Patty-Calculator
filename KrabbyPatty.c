@@ -15,5 +15,5 @@ float price = 2.99; //The price of a Krabby Patty
 printf("How many Krabby Patty's do you want?");
 gets(pints);
 quant=atoi(pints);
-printf("That'd be $%.2f please.\n",quant*price);
+printf("That'd be $%.2f.\n",quant*price);
 }
